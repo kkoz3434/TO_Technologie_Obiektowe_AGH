@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.edu.agh.iisg.to.ActiveRecordTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-11T16:57:26" hostname="kkoz34" time="0.601">
+  <properties/>
+  <testcase name="findStudentIndexTest()" classname="pl.edu.agh.iisg.to.ActiveRecordTest" time="0.601"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[paź 11, 2021 6:57:26 PM pl.edu.agh.iisg.to.connection.ConnectionProvider init
+INFO: Loading driver
+paź 11, 2021 6:57:26 PM pl.edu.agh.iisg.to.connection.ConnectionProvider init
+INFO: Connection created
+paź 11, 2021 6:57:26 PM pl.edu.agh.iisg.to.connection.ConnectionProvider close
+INFO: Closing connection
+paź 11, 2021 6:57:26 PM pl.edu.agh.iisg.to.connection.ConnectionProvider init
+INFO: Loading driver
+paź 11, 2021 6:57:26 PM pl.edu.agh.iisg.to.connection.ConnectionProvider init
+INFO: Connection created
+paź 11, 2021 6:57:26 PM pl.edu.agh.iisg.to.executor.QueryExecutor <clinit>
+INFO: Creating table Student
+paź 11, 2021 6:57:26 PM pl.edu.agh.iisg.to.executor.QueryExecutor <clinit>
+INFO: Creating table Course
+paź 11, 2021 6:57:26 PM pl.edu.agh.iisg.to.executor.QueryExecutor <clinit>
+INFO: Creating table Student_Course
+paź 11, 2021 6:57:26 PM pl.edu.agh.iisg.to.executor.QueryExecutor <clinit>
+INFO: Creating table Grade
+paź 11, 2021 6:57:27 PM pl.edu.agh.iisg.to.executor.QueryExecutor read
+INFO: Query: SELECT * FROM student WHERE id = (?) executed.
+paź 11, 2021 6:57:27 PM pl.edu.agh.iisg.to.executor.QueryExecutor read
+INFO: Query: SELECT * FROM student WHERE index_number = ? executed.
+paź 11, 2021 6:57:27 PM pl.edu.agh.iisg.to.connection.ConnectionProvider close
+INFO: Closing connection
+]]></system-err>
+</testsuite>
